@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="w-full p-3 shadow flex mx-auto my-5 cursor-pointer"
+    class="w-full p-3 shadow flex mx-auto my-2 cursor-pointer"
     @click="$router.push('item/' + item.fields.slug)"
   >
     <div 

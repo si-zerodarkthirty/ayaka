@@ -15,6 +15,7 @@
     "@nuxtjs/pwa": "^3.0.0-0",
     "contentful": "^7.14.3",
     "markdown-it-highlightjs": "^3.1.0",
+    "markdown-it-katex": "^2.0.3",
     "nuxt": "^2.0.0",
     "stylus": "^0.54.7",
     "stylus-loader": "^3.0.2"

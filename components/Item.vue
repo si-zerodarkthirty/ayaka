@@ -10,7 +10,11 @@
     <div class="ml-5">
       <h2 class="font-bold text-lg">{{ item.fields.title }}</h2>
       <p>{{ item.fields.createdAt.slice(0,10) }}</p>
-      <div class="text-sm" v-html="$md.render(item.fields.intro)"></div>
+      <div 
+        v-if="item.fields.intro"
+        class="text-sm intro" 
+        v-html="$md.render(item.fields.intro)"
+      ></div>
     </div>
   </div>
 </template>
@@ -20,3 +24,11 @@ export default {
   props: ['item']
 }
 </script>
+
+<style lang="stylus">
+.intro
+  code
+    background #eee
+    padding .2rem
+    border-radius .2rem
+</style>

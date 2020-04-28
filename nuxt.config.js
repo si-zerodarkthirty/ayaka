@@ -25,7 +25,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.0/styles/a11y-light.min.css' },
-      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Quicksand&display=swap' }
+      { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Quicksand&display=swap' },
+      { rel: 'stylesheet', type: 'text/css', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }
     ],
   },
   /*
@@ -62,7 +63,8 @@ export default {
     linkify: true,
     breaks: false,
     use: [
-      'markdown-it-highlightjs'
+      'markdown-it-highlightjs',
+      'markdown-it-katex'
     ]
   },
   /*

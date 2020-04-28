@@ -1,0 +1,28 @@
+{
+  "name": "codelog",
+  "version": "1.0.0",
+  "description": "My luminous Nuxt.js project",
+  "author": "si-zerodarkthirty",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/markdownit": "^1.2.9",
+    "@nuxtjs/pwa": "^3.0.0-0",
+    "contentful": "^7.14.3",
+    "markdown-it-highlightjs": "^3.1.0",
+    "nuxt": "^2.0.0",
+    "stylus": "^0.54.7",
+    "stylus-loader": "^3.0.2"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^1.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1"
+  }
+}

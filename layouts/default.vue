@@ -17,7 +17,6 @@ export default {
 </script>
 
 <style lang="stylus">
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap')
 html
   font-family 'Quicksand', 'Yu Gothic', 'YuGothic', sans-serif
   font-size 14px

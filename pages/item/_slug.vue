@@ -1,10 +1,6 @@
 <template>
   <div>
-    <h2 class="mt-8 font-bold text-4xl text-center">{{ item.fields.title }}</h2>
-    <div
-      class="content border border-black p-5 text-sm leading-loose my-12"
-      v-html="$md.render(item.fields.intro )"
-    ></div>
+    <h2 class="mt-8 font-bold text-2xl text-center">{{ item.fields.title }}</h2>
     <div
       class="content leading-loose my-12"
       v-html="$md.render(item.fields.content)"
@@ -34,7 +30,7 @@ export default {
 <style lang="stylus">
 .content
   h3
-    font-size 1.5rem
+    font-size 1.2rem
     font-weight bold
     margin 1.5rem 0 1rem
   pre

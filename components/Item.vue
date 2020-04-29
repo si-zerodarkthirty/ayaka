@@ -1,6 +1,6 @@
 <template>
   <div 
-    class="w-full p-3 flex mx-auto my-2 cursor-pointer"
+    class="w-full flex mx-auto my-3 cursor-pointer"
     @click="$router.push('/item/' + item.fields.slug)"
   >
     <div
@@ -9,7 +9,7 @@
     >{{ item.fields.title[0] }}</div>
     <div class="ml-5">
       <h2 class="text-lg">{{ item.fields.title }}</h2>
-      <p class="text-xs">{{ item.fields.createdAt.slice(0,10) }}</p>
+      <p class="text-xs">{{ item.sys.updatedAt.slice(0,10) }}</p>
       <div
         v-if="item.fields.intro"
         class="text-xs intro" 

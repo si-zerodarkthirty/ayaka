@@ -22,7 +22,7 @@ export default {
     return Promise.all([
       client.getEntries({
         'content_type': 'item',
-        order: '-sys.createdAt'
+        order: '-sys.updatedAt'
       })
     ]).then(([items]) => {
       return {

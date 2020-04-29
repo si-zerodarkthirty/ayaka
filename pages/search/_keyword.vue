@@ -29,7 +29,7 @@ export default {
       client.getEntries({
         'content_type': 'item',
         query: params.keyword,
-        order: '-sys.createdAt'
+        order: '-sys.updatedAt'
       })
     ]).then(([items]) => {
       return {

@@ -1,6 +1,7 @@
 <template>
   <div>
     <h2 class="mt-8 text-2xl text-center">{{ item.fields.title }}</h2>
+    <p class="text-center text-xs">{{ item.sys.updatedAt.slice(0,10) }}</p>
     <div
       v-if="item.fields.content"
       class="content leading-loose my-12"

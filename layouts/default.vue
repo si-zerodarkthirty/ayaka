@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main class="pt-24 px-3 mx-auto">
+    <main class="mx-auto px-2">
       <nuxt />
     </main>
   </div>
@@ -29,4 +29,5 @@ html
 main
   width 100%
   max-width 600px
+  padding-top 8rem
 </style>

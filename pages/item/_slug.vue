@@ -38,6 +38,7 @@ export default {
     font-size .9rem
     background #eee
     padding 1rem
+    margin 0 -0.5rem
     code
       background #eee
       color black
@@ -51,6 +52,8 @@ export default {
     border 1px solid #eee
     padding .3rem
     width 50%
-    min-width 250px
     margin 1rem 0
+    @media(max-width 650px) {
+      width 100%
+    }
 </style>

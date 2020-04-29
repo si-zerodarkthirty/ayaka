@@ -3,13 +3,13 @@
     class="fixed py-5 px-2 w-full text-center" 
     :class="{ 'hidden': !showNavbar }"
   >
-    <h1 class="text-xl cursor-pointer" @click="$router.push('/')">codes&nodes.</h1>
-    <h2 class="text-xs">Shusuke IOKU; Waseda; <a href="https://twitter.com/o_dark_3o" target="_blank">@o_dark_3o</a>.</h2>
+    <h1 class="text-xl cursor-pointer" @click="$router.push('/')">codes&proofs.</h1>
+    <a href="https://twitter.com/o_dark_3o" target="_blank"><h2 class="text-xs">Shusuke IOKU</h2></a>
     <input 
-      class="appearance-none block w-full bg-transparent border-b border-black p-3 mx-auto leading-tight focus:outline-none text-center" 
+      class="appearance-none block w-full p-2 mt-1 mx-auto leading-tight focus:outline-none text-center text-xs" 
       type="text"
       v-model="search"
-      placeholder="Interests: Interstate Bargaining, Military Signals, Causal Inference"
+      placeholder="Type any keywords and press enter."
       @keypress.enter="$router.push('/search/' + search)"
     >
   </header>
@@ -19,12 +19,17 @@
 header
   transform translate3d(0, 0, 0)
   transition 0.1s all ease-out
-
 .hidden
   transform translate3d(0, -100%, 0)
 input
-  width 100%
-  max-width 600px
+  width calc(100% - 1rem)
+  max-width calc(600px - 1rem)
+  background #eee
+  border-radius 1rem
+::-webkit-input-placeholder
+  color black
+:-ms-placeholder
+  color black
 </style>
 
 <script>

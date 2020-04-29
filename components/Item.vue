@@ -5,7 +5,7 @@
   >
     <div
       class="rounded-full border border-black text-center flex-shrink-0"
-      style="width: 50px; height: 50px; padding: 13px 0;"
+      style="width: 50px; height: 50px; padding: 14px 0;"
     >{{ item.fields.title[0] }}</div>
     <div class="ml-5">
       <h2 class="text-lg">{{ item.fields.title }}</h2>

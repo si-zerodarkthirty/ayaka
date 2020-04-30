@@ -63,7 +63,9 @@ export default {
     breaks: false,
     use: [
       'markdown-it-highlightjs',
-      'markdown-it-katex'
+      'markdown-it-katex',
+      'markdown-it-toc-done-right',
+      'markdown-it-anchor'
     ]
   },
   /*

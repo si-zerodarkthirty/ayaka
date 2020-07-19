@@ -5,14 +5,13 @@
       :class="{ hidden: !showNavbar }"
     >
       <div 
-        class="bg-cover bg-center w-16 h-16 rounded-full mr-3 cursor-pointer" 
-        style="background-image: url(https://i.ibb.co/pdxLgVg/Dr-Strangelove.png); min-width: 4rem"
+        class="bg-cover bg-center w-12 h-12 rounded-full mr-3 cursor-pointer" 
+        style="background-image: url(https://i.ibb.co/1Z1XFJ7/Screen-Shot-2020-07-19-at-21-22-59.png); min-width: 3rem"
         @click="$router.push('/')"
       ></div>
       <div class="cursor-pointer" @click="showSide = true">
-        <p class="text-lg mt-1">shusuke ioku</p>
-        <p class="text-xs leading-tight" style="width: 13rem; min-width: 13rem">crisis signaling, deterrence, alliance</p>
-        <p class="text-xs leading-tight" style="width: 13rem; min-width: 13rem">formal theory, survey experiment</p>
+        <p class="text-lg mt-1">data nyientist</p>
+        <p class="text-xs leading-tight" style="width: 13rem; min-width: 13rem">東京の会社でSASを勉強中</p>
       </div>
       <input 
         class="appearance-none block w-full px-3 mt-1 mx-auto focus:outline-none" 
@@ -35,13 +34,12 @@
       <div class="flex mb-5">
         <div 
           class="bg-cover bg-center w-16 h-16 rounded-full mr-3 cursor-pointer" 
-          style="background-image: url(https://i.ibb.co/pdxLgVg/Dr-Strangelove.png); min-width: 4rem"
+          style="background-image: url(https://i.ibb.co/1Z1XFJ7/Screen-Shot-2020-07-19-at-21-22-59.png); min-width: 4rem"
           @click="showSide = true"
         ></div>
         <div>
-          <p class="text-lg mt-1">shusuke ioku</p>
-          <p class="text-xs leading-tight" style="width: 13rem; min-width: 13rem">crisis signaling, deterrence, alliance</p>
-          <p class="text-xs leading-tight" style="width: 13rem; min-width: 13rem">formal theory, survey experiment</p>
+          <p class="text-lg mt-1">data nyientist</p>
+          <p class="text-xs leading-tight" style="width: 13rem; min-width: 13rem">東京の会社でSASを勉強中</p>
         </div>
       </div>
       <div class="list">

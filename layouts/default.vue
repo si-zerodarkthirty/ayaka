@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main class="mx-auto px-2">
+    <main class="mx-auto">
       <nuxt />
     </main>
   </div>
@@ -18,7 +18,7 @@ export default {
 
 <style lang="stylus">
 html
-  font-family 'Quicksand', 'Yu Gothic', 'YuGothic', sans-serif
+  font-family 'Ubuntu', 'Yu Gothic', 'YuGothic', sans-serif
   font-size 14px
   word-spacing 1px
   -ms-text-size-adjust 100%
@@ -28,6 +28,5 @@ html
   box-sizing border-box
 main
   width 100%
-  max-width 600px
-  padding-top 8rem
+  padding-top 6.8rem
 </style>

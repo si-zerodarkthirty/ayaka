@@ -43,47 +43,7 @@
         </div>
       </div>
       <div class="list">
-        <div>
-          <p><span>Academic Position</span></p>
-        </div>
-        <ul>
-          <li>Graduate Student, GSPS, Waseda Univ.</li>
-          <li>Junior Visiting Fellow, Japan Institute of International Affairs</li>
-        </ul>
-        <div>
-          <p><span>Paper</span></p></div>
-        <ul>
-          <li>"Threats and Assurances with Military Actions," In Progress</li>
-          <li>"Tuning Audience Costs," In Progress</li>
-        </ul>
-        <div>
-          <p><span>Presentation</span></p>
-        </div>
-        <ul>
-          <li>"Threats and Assurances with Military Actions," 2020 Annual Conf., Japan Assoc. of Int'l Relations</li>
-          <li>"Threats and Assurances with Military Actions," Mar. 2021, Game Theory Workshop</li>
-        </ul>
-        <div>
-          <p><span>Scholarship & Award</span></p>
-        </div>
-        <ul>
-          <li>Scolarship Fellow, US-Japan Partnership Program, Research Institute of Peace and Security</li>
-          <li>Secretary-General Award, Diplomacy Essey Contest, Japan Liberal Democratic Party</li>
-        </ul>
-        <div>
-          <p><span>Skill</span></p>
-        </div>
-        <ul>
-          <li>R, Python, HTML, CSS, JavaScript</li>
-        </ul>
-        <div>
-          <p><span>Non-Academic Position</span></p>
-        </div>
-        <ul>
-          <li>Freelance Web Developer</li>
-          <li>Research Assistant, Asia-Pacific Initiative</li>
-          <li>Research Assistant, Center for Strategic & International Studies</li>
-        </ul>
+        
       </div>
     </div>
   </div>
